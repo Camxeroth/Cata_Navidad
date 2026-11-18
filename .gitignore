@@ -1,0 +1,9 @@
+# Archivos de trabajo (no necesarios para publicar el sitio)
+_dev/
+_render/
+agregado/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
