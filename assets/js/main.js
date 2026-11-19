@@ -92,12 +92,9 @@
   /* ------------------------- esencias ------------------------- */
   function scentMarkup(e) {
     const msg =
-      "¡Hola, Expressions by Pao! 🎄 Vi el catálogo y quiero pedir la esencia *" +
+      "¡Hola, Expressions by Pao! 🎄 Vi el catálogo y quiero consultar la esencia *" +
       e.nombre +
-      "* para velas. ¿Me ayudas con la disponibilidad y el gramaje?";
-    const prices = e.precios
-      .map(([g, p]) => "<span><b>" + g + "</b><em>" + p + "</em></span>")
-      .join("");
+      "* para velas. ¿Me ayudas con la disponibilidad y las opciones de gramaje?";
     return (
       '<article class="scent reveal">' +
         '<div class="scent__media">' +
@@ -106,11 +103,11 @@
         '<div class="scent__body">' +
           '<p class="scent__kicker">Fragancia</p>' +
           '<h3 class="scent__name">' + e.nombre + "</h3>" +
-          '<div class="scent__prices">' + prices + "</div>" +
+          '<p class="scent__desc">' + e.desc + "</p>" +
           '<div class="scent__foot">' +
-            '<span class="scent__iva">+ IVA</span>' +
+            '<span class="scent__iva">Disponible por gramaje</span>' +
             '<a class="scent__cta" href="' + waLink(msg) + '" target="_blank" rel="noopener">' +
-              "Pedir" +
+              "Consultar" +
               '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>' +
             "</a>" +
           "</div>" +

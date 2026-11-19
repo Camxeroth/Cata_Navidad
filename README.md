@@ -65,7 +65,7 @@ Todo el catálogo vive en `assets/js/productos.js`:
 {
   id: "reno",                       // identificador único
   nombre: "Reno",
-  categoria: "velas",               // velas | dulce | anchetas | pesebres | cajas | detalles
+  categoria: "velas",               // velas | vinos | corporativos | detalles | anoviejo
   img: "assets/img/products/reno.jpg",
   ar: 1,                            // proporción de la foto (ancho / alto)
   desc: "Renos de cera con campanita dorada al cuello...",
@@ -87,10 +87,9 @@ Todo el catálogo vive en `assets/js/productos.js`:
 ### Esencias para velas
 
 Las 6 fragancias viven en el arreglo `ESENCIAS` de `assets/js/productos.js`. Cada una tiene `id`, `nombre`,
-`img` y una lista `precios` de pares `["gramaje", "valor"]`. Solo se incluyeron las fragancias marcadas en
-verde en la imagen de la marca: **Raspberry, Milky Caramel, Cookies & Cream, Cinnamon Cake, Frosty Pine y
-Apple Cinnamon**. Los precios son por gramaje y **no incluyen IVA**; el sitio lo indica en cada ficha y en
-la nota final de la sección.
+`img` y una descripción profesional en `desc`. Solo se incluyeron las fragancias marcadas en verde en la
+imagen de la marca: **Raspberry, Milky Caramel, Cookies & Cream, Cinnamon Cake, Frosty Pine y Apple
+Cinnamon**. Las fichas no muestran precios: la disponibilidad y los gramajes se consultan por WhatsApp.
 
 ---
 
@@ -123,9 +122,9 @@ Incluye `.nojekyll` para que GitHub Pages no procese los archivos con Jekyll.
 
 ### Productos nuevos (18 productos)
 
-- Se agregaron las fotos y los precios de la carpeta `agregado/` (21 fotos numeradas y `precios.txt`),
-  distribuidos en **Cajas & Regalos** (9), **Detalles & Belleza** (6) y **Dulce aroma**
-  (3 nuevos: caja de wax melts, tarjetas con vela y vela navideña).
+- Se agregaron las fotos y los precios de la carpeta `agregado/` (21 fotos numeradas y `precios.txt`).
+  Hoy quedan clasificados en **Velas & Aromas**, **Vinos, Anchetas & Cajas**, **Corporativos &
+  Personalizados**, **Detalles & Belleza** y **Año Viejo**.
 - Los nombres de los productos nuevos son propuestos por el sitio, según lo solicitado.
 - Donde la lista original decía **"Tarjeta"**, se muestra **"Tarjeta personalizada"**.
 - **Fotos 14 y 15:** son el mismo producto (**Tarjetas con Vela**), con la misma descripción y precio;

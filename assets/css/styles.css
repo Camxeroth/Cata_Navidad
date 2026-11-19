@@ -350,7 +350,7 @@ ul,ol{ padding:0; list-style:none; }
   letter-spacing:.42em;
   text-transform:uppercase;
   color:var(--ink);
-  margin-top:-.2em;
+  margin:.75rem 0 .1rem;
 }
 .hero__kicker .rule{
   width:clamp(40px, 9vw, 110px);
@@ -701,6 +701,12 @@ ul,ol{ padding:0; list-style:none; }
   column-count:2;
 }
 .grid--two .card__media img{ object-position:center; }
+.grid--single{
+  column-count:1;
+  max-width:390px;
+  margin-inline:auto;
+}
+.grid--single .card__media img{ object-position:center; }
 
 .card{
   position:relative;
@@ -928,6 +934,13 @@ ul,ol{ padding:0; list-style:none; }
   letter-spacing:.01em;
   line-height:1.2;
   color:var(--ink);
+}
+.scent__desc{
+  margin:0 0 .2rem;
+  font-size:.68rem;
+  font-weight:300;
+  line-height:1.55;
+  color:#6f5f52;
 }
 .scent__prices{
   display:grid;

@@ -170,7 +170,7 @@ const PRODUCTOS = [
   {
     id: "set-velas-deseos",
     nombre: "Set Velas de los Deseos",
-    categoria: "dulce",
+    categoria: "velas",
     img: "assets/img/products/set-velas-deseos.jpg",
     ar: 0.8,
     desc: "Cuatro velas con palabras en relieve para pedir un deseo: amor, paz, familia, salud, gratitud, abundancia, Dios y felicidad.",
@@ -188,7 +188,7 @@ const PRODUCTOS = [
   {
     id: "mini-arbol-navideno",
     nombre: "Mini árbol navideño",
-    categoria: "dulce",
+    categoria: "velas",
     img: "assets/img/products/mini-arbol-navideno.jpg",
     ar: 0.8,
     desc: "Mini árbol de cera en tonos verdes dentro de una copa dorada, con figuras navideñas en miniatura. Un regalo de escritorio.",
@@ -201,7 +201,7 @@ const PRODUCTOS = [
   {
     id: "dulce-aroma",
     nombre: "Dulce aroma",
-    categoria: "dulce",
+    categoria: "velas",
     img: "assets/img/products/dulce-aroma.jpg",
     ar: 0.8,
     desc: "Ocho velas navideñas aromáticas en caja cilíndrica con tapa: para quemador o para encender. Incluye tarjeta personalizada.",
@@ -218,7 +218,7 @@ const PRODUCTOS = [
   {
     id: "margaritas-navidenas",
     nombre: "Adorno margaritas navideñas",
-    categoria: "dulce",
+    categoria: "velas",
     img: "assets/img/products/margaritas-navidenas.jpg",
     ar: 0.8,
     desc: "Margarita de cera de soya sobre base de yeso, presentada en bolsa transparente con moño y tarjeta Feliz Navidad.",
@@ -231,7 +231,7 @@ const PRODUCTOS = [
   {
     id: "quemador-wax-melts",
     nombre: "Quemador con Wax melts",
-    categoria: "dulce",
+    categoria: "velas",
     img: "assets/img/products/quemador-wax-melts.jpg",
     ar: 0.8,
     desc: "Quemador de cerámica con 200 g de figuras navideñas en cera de soya, aroma a elección. Incluye tarjeta, cinta y caja.",
@@ -248,7 +248,7 @@ const PRODUCTOS = [
   {
     id: "pesebre-cera-granulada",
     nombre: "Pesebre con cera granulada",
-    categoria: "dulce",
+    categoria: "velas",
     img: "assets/img/products/pesebre-cera-granulada.jpg",
     ar: 0.8,
     desc: "Pesebre sobre bandeja de porcelana con cera granulada efecto nieve, dos velas y diez mechas. Una pieza para mirar y encender.",
@@ -268,7 +268,7 @@ const PRODUCTOS = [
   {
     id: "caja-wax-melts",
     nombre: "Caja Wax Melts Navideña",
-    categoria: "dulce",
+    categoria: "velas",
     img: "assets/img/products/caja-wax-melts.jpg",
     ar: 0.9156,
     desc: "250 g de figuras navideñas de cera aromática en caja kraft con lazo. Elige tu aroma favorito.",
@@ -283,7 +283,7 @@ const PRODUCTOS = [
   {
     id: "tarjetas-con-vela",
     nombre: "Tarjetas con Vela",
-    categoria: "dulce",
+    categoria: "velas",
     img: "assets/img/products/tarjetas-con-vela.jpg",
     ar: 0.8571,
     desc: "Tarjeta navideña con max melts altamente aromatizada, tarjeta personalizada y envoltura. Varias figuras a elección.",
@@ -300,7 +300,7 @@ const PRODUCTOS = [
   {
     id: "vela-navidad",
     nombre: "Vela Navideña",
-    categoria: "dulce",
+    categoria: "velas",
     img: "assets/img/products/vela-navidad.jpg",
     ar: 0.6672,
     desc: "Vela decorada con diseños navideños sobre base de yeso, altamente aromatizada y con tarjeta personalizada.",
@@ -318,7 +318,7 @@ const PRODUCTOS = [
   {
     id: "ancheta-grande",
     nombre: "Árbol Navideño grande",
-    categoria: "anchetas",
+    categoria: "vinos",
     img: "assets/img/products/ancheta-grande.jpg",
     ar: 0.8,
     desc: "Ancheta en caja de pino con vino, frutos secos, miel, galletas navideñas y Ferrero Rocher, decorada con follaje. El regalo completo.",
@@ -340,7 +340,7 @@ const PRODUCTOS = [
   {
     id: "ancheta-pequena",
     nombre: "Árbol Navideño pequeño",
-    categoria: "anchetas",
+    categoria: "vinos",
     img: "assets/img/products/ancheta-pequena.jpg",
     ar: 0.8,
     desc: "Ancheta en caja de pino con vino, caramelos, galletas navideñas y Ferrero Rocher, con follaje y tarjeta personalizada.",
@@ -361,7 +361,7 @@ const PRODUCTOS = [
   {
     id: "pesebre-uno",
     nombre: "Pesebre navideño UNO",
-    categoria: "pesebres",
+    categoria: "vinos",
     img: "assets/img/products/pesebre-uno.jpg",
     ar: 0.8,
     desc: "Caja de madera con vino, frutos secos y un quemador de cera con 200 g de wax melts. Un regalo cálido para compartir.",
@@ -380,7 +380,7 @@ const PRODUCTOS = [
   {
     id: "pesebre-dos",
     nombre: "Pesebre navideño DOS",
-    categoria: "pesebres",
+    categoria: "vinos",
     img: "assets/img/products/pesebre-dos.jpg",
     ar: 0.8,
     desc: "Caja de madera con vino, frutos secos y tres Ferrero Rocher, presentada con tarjeta personalizada.",
@@ -399,7 +399,7 @@ const PRODUCTOS = [
   {
     id: "estrella-navidad",
     nombre: "Estrella de Navidad",
-    categoria: "pesebres",
+    categoria: "vinos",
     img: "assets/img/products/estrella-navidad.jpg",
     ar: 1,
     desc: "Caja de pino en forma de estrella con vino, frutos secos o miel, Ferrero Rocher y follaje. Nuestra estrella de la temporada.",
@@ -419,7 +419,7 @@ const PRODUCTOS = [
   {
     id: "estrella-navidad-dos",
     nombre: "Estrella de Navidad DOS",
-    categoria: "pesebres",
+    categoria: "vinos",
     img: "assets/img/products/estrella-navidad-dos.jpg",
     ar: 0.8,
     desc: "Caja de madera con vino, frutos secos, vela de la colección navideña y tres Ferrero Rocher, con follaje y tarjeta.",
@@ -439,7 +439,7 @@ const PRODUCTOS = [
   {
     id: "caja-vino-delicias",
     nombre: "Caja Vino & Delicias",
-    categoria: "cajas",
+    categoria: "vinos",
     img: "assets/img/products/caja-vino-delicias.jpg",
     ar: 0.8,
     desc: "Caja de pino con vino, galletas, chocolates y frutos secos, decorada con follaje navideño. Un regalo completo para compartir.",
@@ -460,7 +460,7 @@ const PRODUCTOS = [
   {
     id: "kit-rodolfo",
     nombre: "Kit Navideño Rodolfo",
-    categoria: "cajas",
+    categoria: "velas",
     img: "assets/img/products/kit-rodolfo.jpg",
     ar: 0.8867,
     desc: "Reno de cera y vela en frasco altamente aromatizada, presentados con envoltura y tarjeta personalizada.",
@@ -478,7 +478,7 @@ const PRODUCTOS = [
   {
     id: "kit-anito-viejo",
     nombre: "Kit Añito Viejo 2026",
-    categoria: "cajas",
+    categoria: "anoviejo",
     img: "assets/img/products/kit-anito-viejo.jpg",
     ar: 1.3333,
     desc: "Kit de Año Viejo con muñeco de plumón, billete de la abundancia y tarjeta de metas y objetivos 2027.",
@@ -495,7 +495,7 @@ const PRODUCTOS = [
   {
     id: "duo-reno-arbol",
     nombre: "Dúo Reno & Árbol",
-    categoria: "cajas",
+    categoria: "velas",
     img: "assets/img/products/duo-reno-arbol.jpg",
     ar: 0.8152,
     desc: "Dos velas navideñas sobre base de yeso: un reno con campanita y un árbol de Navidad. Las figuras también se pueden vender por separado.",
@@ -514,7 +514,7 @@ const PRODUCTOS = [
   {
     id: "trio-velas-navidenas",
     nombre: "Trío de Velas Navideñas",
-    categoria: "cajas",
+    categoria: "velas",
     img: "assets/img/products/trio-velas-navidenas.jpg",
     ar: 1.0297,
     desc: "Tres velas de cera —árbol, esfera y burbuja navideña— con follaje, envoltura y tarjeta. Aromas a escoger.",
@@ -534,7 +534,7 @@ const PRODUCTOS = [
   {
     id: "piqueo-navideno",
     nombre: "Piqueo Navideño",
-    categoria: "cajas",
+    categoria: "vinos",
     img: "assets/img/products/piqueo-navideno.jpg",
     ar: 1.0638,
     desc: "Piqueo individual con salami, quesos, jamón de pavo, frutillas, pasas y aceitunas. Listo para compartir.",
@@ -555,7 +555,7 @@ const PRODUCTOS = [
   {
     id: "box-corporativa",
     nombre: "Box Corporativa Navideña",
-    categoria: "cajas",
+    categoria: "corporativos",
     img: "assets/img/products/box-corporativa.jpg",
     ar: 0.8004,
     desc: "Box navideña corporativa con jarro personalizado, frasco de frutos secos y chocolates. Ideal para clientes y equipos.",
@@ -574,7 +574,7 @@ const PRODUCTOS = [
   {
     id: "botella-vino-chocolate",
     nombre: "Botella Vino & Chocolate",
-    categoria: "cajas",
+    categoria: "vinos",
     img: "assets/img/products/botella-vino-chocolate.jpg",
     ar: 0.75,
     desc: "Botella de vino con caja de chocolates, cinta navideña y tarjeta. Colores a elección y contenido de la caja a tu gusto.",
@@ -592,7 +592,7 @@ const PRODUCTOS = [
   {
     id: "set-mini-vino",
     nombre: "Set Mini Vino & Ferrero",
-    categoria: "cajas",
+    categoria: "vinos",
     img: "assets/img/products/set-mini-vino.jpg",
     ar: 1.8828,
     desc: "Vino pequeño, copa personalizada y cuatro Ferrero Rocher en caja de MDF con follaje navideño.",
@@ -624,7 +624,7 @@ const PRODUCTOS = [
   {
     id: "jarros-personalizados",
     nombre: "Jarros Personalizados",
-    categoria: "detalles",
+    categoria: "corporativos",
     img: "assets/img/products/jarros-personalizados.jpg",
     ar: 1.7241,
     desc: "Jarro de 11 oz sublimado con diseño navideño o con la marca o nombre que elijas. Varios diseños disponibles.",
@@ -637,7 +637,7 @@ const PRODUCTOS = [
   {
     id: "joyero-personalizado",
     nombre: "Joyero Personalizado",
-    categoria: "detalles",
+    categoria: "corporativos",
     img: "assets/img/products/joyero-personalizado.jpg",
     ar: 0.9184,
     desc: "Joyero personalizado con el nombre, cinta y envoltura. Un regalo útil y hecho a medida.",
@@ -663,7 +663,7 @@ const PRODUCTOS = [
   {
     id: "kit-novena-brillando",
     nombre: "Kit Novena Brillando",
-    categoria: "detalles",
+    categoria: "corporativos",
     img: "assets/img/products/kit-novena-brillando.jpg",
     ar: 0.9184,
     desc: "Kit para las novenas: fosforera personalizada con tu marca o nombre, vela o chispeador, tarjeta y envoltura.",
@@ -696,69 +696,51 @@ const PRODUCTOS = [
 ];
 
 const CATEGORIAS = {
-  velas: "Velas Navideñas",
-  dulce: "Dulce aroma",
-  anchetas: "Anchetas Navideñas",
-  pesebres: "Pesebres y Estrellas",
-  cajas: "Cajas & Regalos",
-  detalles: "Detalles & Belleza"
+  velas: "Velas & Aromas",
+  vinos: "Vinos, Anchetas & Cajas",
+  corporativos: "Corporativos & Personalizados",
+  detalles: "Detalles & Belleza",
+  anoviejo: "Año Viejo"
 };
 
-/* Esencias para velas: solo las fragancias marcadas en verde.
-   Los precios son por gramaje y no incluyen IVA. */
+/* Esencias para velas: fragancias seleccionadas para personalizar
+   velas y wax melts. La disponibilidad y el gramaje se consultan
+   directamente por WhatsApp. */
 const ESENCIAS = [
   {
     id: "raspberry",
     nombre: "Raspberry",
     img: "assets/img/esencias/raspberry.jpg",
-    precios: [
-      ["30 g", "$1,74"], ["60 g", "$2,96"], ["100 g", "$4,30"],
-      ["250 g", "$9,74"], ["500 g", "$17,83"], ["1000 g", "$32,91"]
-    ]
+    desc: "Frambuesa dulce y frutal, con un fondo suave que aporta calidez a velas y wax melts."
   },
   {
     id: "milky-caramel",
     nombre: "Milky Caramel",
     img: "assets/img/esencias/milky-caramel.jpg",
-    precios: [
-      ["30 g", "$2,52"], ["60 g", "$4,44"], ["100 g", "$6,52"],
-      ["250 g", "$14,78"], ["500 g", "$27,13"], ["1000 g", "$50,22"]
-    ]
+    desc: "Caramelo cremoso con notas de leche y vainilla; un aroma cálido, dulce y envolvente."
   },
   {
     id: "cookies-cream",
     nombre: "Cookies & Cream",
     img: "assets/img/esencias/cookies-cream.jpg",
-    precios: [
-      ["30 g", "$2,17"], ["60 g", "$3,74"], ["100 g", "$5,44"],
-      ["250 g", "$14,78"], ["500 g", "$27,13"], ["1000 g", "$41,74"]
-    ]
+    desc: "Galleta recién horneada con crema de vainilla; dulce, reconfortante y equilibrado."
   },
   {
     id: "cinnamon-cake",
     nombre: "Cinnamon Cake",
     img: "assets/img/esencias/cinnamon-cake.jpg",
-    precios: [
-      ["30 g", "$2,44"], ["60 g", "$4,22"], ["100 g", "$6,22"],
-      ["250 g", "$14,04"], ["500 g", "$25,78"], ["1000 g", "$47,65"]
-    ]
+    desc: "Bizcocho de canela con especias suaves y un final acaramelado."
   },
   {
     id: "frosty-pine",
     nombre: "Frosty Pine",
     img: "assets/img/esencias/frosty-pine.jpg",
-    precios: [
-      ["30 g", "$2,52"], ["60 g", "$4,44"], ["100 g", "$6,52"],
-      ["250 g", "$14,78"], ["500 g", "$27,13"], ["1000 g", "$47,65"]
-    ]
+    desc: "Pino fresco con notas heladas; evoca un bosque invernal y una sensación limpia."
   },
   {
     id: "apple-cinnamon",
     nombre: "Apple Cinnamon",
     img: "assets/img/esencias/apple-cinnamon.jpg",
-    precios: [
-      ["30 g", "$2,04"], ["60 g", "$3,57"], ["100 g", "$5,17"],
-      ["250 g", "$11,70"], ["500 g", "$21,43"], ["1000 g", "$39,61"]
-    ]
+    desc: "Manzana al horno con canela; frutal, especiado y hogareño."
   }
 ];
